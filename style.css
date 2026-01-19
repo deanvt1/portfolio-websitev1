@@ -1,0 +1,533 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+
+body {
+  background: #000;
+  color: #fff;
+  
+   
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;          
+}
+
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.software-developer {
+  position: absolute;
+  top: 70%;           
+  left: 65%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 40px;    
+}
+
+
+.bio {
+  position: absolute;
+  top: 40%;           
+  left: 65%;
+  transform: translateX(-50%);
+  text-align: left;
+  font-size: 18px;    
+}
+
+
+.skills {
+  position: absolute;
+  top: 40%;           
+  left: 65%;
+  transform: translateX(-50%);
+  text-align: left;
+  font-size: 21px;    
+}
+
+
+.projecten {
+  position: absolute;
+  top: 40%;           
+  left: 62%;
+  transform: translateX(-50%);
+  text-align: left;
+  font-size: 23px;    
+}
+
+
+.contacten {
+  position: absolute;
+  top: 40%;           
+  left: 65%;
+  transform: translateX(-50%);
+  text-align: left;
+  font-size: 20px;    
+}
+
+
+.socials2 {
+  position: absolute;
+  right: 200px;
+  top: 700px; 
+}
+
+
+.overlay-image {
+  
+  width: 180px;
+  height: auto;
+  
+  
+}
+
+
+
+.bio-tekst {
+  position: absolute;
+  display: flex;
+  justify-self: end;
+  margin-right: 450px;
+  top: 310px;
+}
+
+
+.skills-tekst {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  margin-left: 160px;
+  top: 310px;
+}
+
+
+.projecten-tekst {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  margin-left: 75px;
+  top: 310px;
+}
+
+
+.contact-tekst {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  top: 310px;
+  margin-left: 320px;
+}
+
+
+.gmail {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  top: 680px;
+  margin-left: 450px;
+} 
+
+.gmail1 {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  top: 4100px;
+  margin-left: 450px;
+}
+
+.gmail2 {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  top: 3250px;
+  margin-left: 450px;
+}
+
+.gmail3 {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  top: 3250px;
+  margin-left: 450px;
+}
+
+
+.floating-nav {
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+
+  padding: 20px 360px;   
+  background: white;
+  border-radius: 999px;
+  z-index: 1000;
+}
+
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0;           
+}
+
+
+.nav-item1 {
+  color: black;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 16px;
+  margin: 90px;
+}
+
+
+.nav-item2 {
+  color: black;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 16px;
+  margin: 90px;
+  
+}
+
+
+.nav-item3 {
+  color: black;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 16px;
+  margin: 90px;
+}
+
+
+.nav-item4 {
+  color: black;
+  text-decoration: none;
+  opacity: 5;
+  font-size: 16px;
+  margin: 90px;
+}
+
+
+.nav-item:hover {
+  opacity: 1;
+  color: grey;
+}
+
+
+.ul {
+  
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.link-pinkgoose {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 795px;
+  top: 600px;
+}
+.link-pinkgoose1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 795px;
+  top: 3160px;
+}
+
+.link-pinkgoose2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 795px;
+  top: 2300px;
+}
+
+.link-pinkgoose3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 795px;
+  top: 2300px;
+}
+
+.link-pinkgoose4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 795px;
+  top: 1450px;
+}
+
+
+
+.link-mastermind {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1065px;
+  top: 600px;
+}
+
+.link-mastermind1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1065px;
+  top: 3160px;
+}
+
+.link-mastermind2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1065px;
+  top: 2300px;
+}
+
+.link-mastermind3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1065px;
+  top: 2300px;
+}
+
+.link-mastermind4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: 1065px;
+  top: 1450px;
+}
+
+
+
+
+@media (max-width: 700px) {
+  .floating-nav {
+    gap: 10px;
+    top: 5px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain;   
+    background-position: center top;
+    background-color: black;
+    
+  }
+}
+
+
+@media (max-width: 768px) {
+  .floating-nav {
+    padding: 10px 16px;   
+    max-width: calc(100vw - 20px);
+  }
+
+  .ul {
+    gap: 12px;
+  }
+
+  .nav-item {
+    font-size: 12px;
+  }
+}
+
+
+ @media (max-width: 768px) {
+  .software-developer {
+    font-size: 15px; /* mobiel */
+  }
+}
+
+
+ @media (max-width: 768px) {
+  .bio {
+    font-size: 5px; /* mobiel */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .skills {
+    font-size: 5px; /* mobiel */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .projecten {
+    font-size: 5px; /* mobiel */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contacten {
+    font-size: 5px; /* mobiel */
+  }
+}
+
+@media (max-width: 768px) {
+  .socials2 {
+  top: 200px;
+  right: 20px;
+  
+}
+     
+  }
+  .overlay-image {
+    width: 120px;
+    
+  }
+
+
+@media (max-width: 768px) {
+  .gmail {
+    font-size: 5px; /* mobiel */
+    margin-left: 130px;
+    top: 21%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gmail1 {
+    font-size: 5px; /* mobiel */
+    margin-left: 130px;
+    top: 1160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gmail2 {
+    font-size: 5px; /* mobiel */
+    margin-left: 130px;
+    top: 920px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gmail3 {
+    font-size: 5px; /* mobiel */
+    margin-left: 130px;
+    top: 920px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-pinkgoose {
+    font-size: 5px; /* mobiel */
+    margin-left: 222px;
+    top: 18%;
+  }
+}
+@media (max-width: 768px) {
+  .link-pinkgoose1 {
+    font-size: 5px; /* mobiel */
+    margin-left: 222px;
+    top: 895px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-pinkgoose2 {
+    font-size: 5px; /* mobiel */
+    margin-left: 222px;
+    top: 655px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-pinkgoose3 {
+    font-size: 5px; /* mobiel */
+    margin-left: 222px;
+    top: 655px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-pinkgoose4 {
+    font-size: 5px; /* mobiel */
+    margin-left: 222px;
+    top: 410px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-mastermind {
+    font-size: 5px; /* mobiel */
+    margin-left: 300px;
+    top: 18%;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-mastermind1 {
+    font-size: 5px; /* mobiel */
+    margin-left: 300px;
+    top: 895px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-mastermind2 {
+    font-size: 5px; /* mobiel */
+    margin-left: 300px;
+    top: 655px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-mastermind3 {
+    font-size: 5px; /* mobiel */
+    margin-left: 300px;
+    top: 655px;
+  }
+}
+
+@media (max-width: 768px) {
+  .link-mastermind4 {
+    font-size: 5px; /* mobiel */
+    margin-left: 300px;
+    top: 410px;
+  }
+}
+
